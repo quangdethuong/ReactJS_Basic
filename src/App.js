@@ -1,7 +1,8 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import BaiTapChonKinh from './BaiTapChonKinh/BaiTapChonKinh';
+import BaiTapChonXeAdvance from './BaiTapChonXeAdvance/BaiTapChonXeAdvance';
+// import BaiTapChonKinh from './BaiTapChonKinh/BaiTapChonKinh';
 // import HandleEvent from './HandleEvent/HandleEvent';
 // import StateDemo from './State/StateDemo';
 // import Styling from './Styling/Styling';
@@ -31,7 +32,8 @@ function App() {
       {/* <BaiTapChonXe/> */}
       {/* <RenderWithLoop/> */}
       {/* <BaiTapRenderFilms/> */}
-      <BaiTapChonKinh/>
+      {/* <BaiTapChonKinh/> */}
+      <BaiTapChonXeAdvance/>
     </div>
   );
 }
